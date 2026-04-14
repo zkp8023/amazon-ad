@@ -1,0 +1,18 @@
+{
+  "name": "amazon-ad",
+  "version": "0.0.1",
+  "description": "亚马逊广告智能投放",
+  "author": {
+    "name": "ZKP",
+    "email": "zkp800023@163.com",
+    "url": "https://zkp.onrender.com"
+  },
+  "homepage": "https://docs.example.com/plugin",
+  "repository": "https://github.com/author/plugin",
+  "license": "MIT",
+  "keywords": [
+    "亚马逊",
+    "智能投放",
+    "Amazon"
+  ]
+}
