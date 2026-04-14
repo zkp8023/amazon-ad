@@ -1,0 +1,20 @@
+{
+  "name": "amazon-ad",
+  "description": "基于AI的亚马逊广告智能投放平台，提供自动化广告管理和优化功能",
+  "owner": {
+    "name": "ZKP",
+    "email": "zkp800023@163.com"
+  },
+  "license": "MIT",
+  "plugins": [
+    {
+      "name": "amazon-ad",
+      "description": "Amazon广告智能投放插件，支持关键词优化、竞价策略和效果分析",
+      "source": "./",
+      "author": {
+        "name": "ZKP",
+        "email": "zkp800023@163.com"
+      }
+    }
+  ]
+}
