@@ -1,14 +1,17 @@
 # amazon-ad
 
-亚马逊广告智能投放 Claude Code 插件。
+亚马逊广告智能投放 Claude Code / Codex项目插件。
 
-提供与 Amazon 广告优化相关的命令与技能，帮助你更方便地组织广告投放、优化思路与开发辅助能力。
+当前仓库同时兼容两种使用方式：
+
+- Claude Code：通过 `.claude-plugin` 市场机制安装，可使用插件提供的命令与技能
+- Codex：通过原生 skill discovery 安装，可使用仓库 `skills/` 目录下的技能
 
 ## 安装
 
 ### Claude Code 安装方式
 
-先添加 marketplace：
+添加 marketplace：
 
 ```bash
 /plugin marketplace add zkp8023/amazon-ad
@@ -20,14 +23,10 @@
 /plugin install amazon-ad@amazon-ad-marketplace
 ```
 
-## 包含内容
+### Codex 安装方式
 
-- `commands/`：插件命令
-- `skills/`：技能定义
-- `agents/`：代理能力（如有）
-- `.claude-plugin/plugin.json`：插件元信息
-- `.claude-plugin/marketplace.json`：marketplace 配置
+推荐直接让 Codex 拉取并执行本仓库的安装说明：
 
-## 使用
-
-安装完成后，可在 Claude Code 中使用 `/plugin` 查看已安装插件，并使用该插件提供的命令与技能。
+```text
+Fetch and follow instructions from https://raw.githubusercontent.com/zkp8023/amazon-ad/refs/heads/main/.codex/INSTALL.md
+```
