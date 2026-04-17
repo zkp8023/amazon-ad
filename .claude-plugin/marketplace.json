@@ -11,6 +11,7 @@
       "name": "amazon-ad",
       "description": "Amazon广告智能投放插件，支持关键词优化、竞价策略和效果分析",
       "source": "./",
+      "version": "1.0.1",
       "author": {
         "name": "ZKP",
         "email": "zkp800023@163.com"
