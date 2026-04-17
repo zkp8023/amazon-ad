@@ -5,7 +5,7 @@
 当前仓库同时兼容两种使用方式：
 
 - Claude Code：通过 `.claude-plugin` 市场机制安装，可使用插件提供的命令与技能
-- Codex：通过原生 skill discovery 安装，可使用仓库 `skills/` 目录下的技能
+- Codex：通过原生 skill discovery 安装，只会发现仓库 `skills/` 目录下的技能；不会使用 `.claude-plugin` 元数据或 `commands/` 目录
 
 ## 安装
 

@@ -99,7 +99,7 @@ const handleSubmit = async () => {
 如果需要过滤空参数，项目已有：
 
 ```ts
-import { filterNoneParams } from '@/utils/awaitto'
+import { filterFalsy } from '@/utils/webapp'
 ```
 
 适合在拼接查询条件时使用。

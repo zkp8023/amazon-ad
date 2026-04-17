@@ -4,6 +4,8 @@ Use this repository in Codex through native skill discovery.
 
 Codex only needs access to this repository's `skills/` directory. The `.claude-plugin` metadata and `commands/` directory are for Claude Code, not Codex.
 
+The effective install flow is still: clone this repository locally, then link its `skills/` directory into `~/.agents/skills/amazon-ad` so Codex can discover it.
+
 ## Prerequisites
 
 - Git
